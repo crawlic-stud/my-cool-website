@@ -1,0 +1,6 @@
+venv
+.env
+__pycache__
+.vscode
+db_docker
+create-dbs.sql

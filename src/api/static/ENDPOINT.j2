@@ -1,0 +1,14 @@
+## Описание
+{{ description }}
+
+{% if restrictions %}
+## Ограничения и примечания
+{% for item in restrictions %}
+ - {{ item }}
+{% endfor %}
+{% endif %}
+
+{% if usage %}
+## Как пользоваться 
+{{ usage }}
+{% endif %}
